@@ -1,0 +1,23 @@
+table{
+    height: 200px;
+    width: 100%;
+    border-collapse:collapse;
+    border: 2px solid black;
+}
+th{
+    background-color: slategray;
+}
+th,td{
+    border-bottom: 1px solid black;
+    padding-top:20px ;
+    padding-right: 40px;
+    padding-bottom:45px ;
+    padding-left:50px ;
+
+}
+.heading3{
+    background-color:gray;
+}
+.left{
+    text-align: right;
+}

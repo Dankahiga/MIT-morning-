@@ -1,0 +1,38 @@
+input[type=text],input[type=name],input[type=email],input[type=phone],input[type=message],select{
+    display: inline-block;
+    width: 50%;
+    border:2px solid gray;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+.form{
+    height: 500px;
+    background-color: #0ba5b9;
+    padding:150px;
+
+}
+input[type=submit]{
+
+    background-color: #ff7300;
+    border-radius: 5px;
+    color: white;
+}
+input[type=submit]:hover{
+    background-color: grey;
+}
+div{
+    background-color: maroon;
+    border-radius: 10px;
+    padding-left: 500px;
+    margin: 80px;
+    width: 50%;
+}
+body{
+    color: white;
+}
+input[type=message]{
+    height: 50px;
+}

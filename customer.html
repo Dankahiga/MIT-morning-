@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <link rel="stylesheet" href="customer.css">
+  <script type="text/javascript">
+    function validate(){
+      var Name=document.getElementById("name");
+      var Email=document.getElementById("email");
+      var Investment=document.getElementById("mess");
+      var DateJoined=document.getElementById("date")
+      if(Name.value==""||Email.value==""||Investment.value==""||DateJoined.value==""){
+        alert("Try Again");
+        return false;
+      }
+      else{
+        return true;
+
+      }
+    }
+  </script>
+</head>
+<body>
+<form action="" onsubmit="validate()">
+  <fieldset>
+    <legend>Shipping</legend>
+  <label for="name">Name</label>
+  <input type="text"id="name"><br><br>
+
+  <label for="email">Email</label>
+  <input type="email"id="email"><br><br>
+
+  <label for="invest">Investment</label>
+ <select name="" id="invest">
+        <option value="me"> </option>
+         <option value="two"> Crypto</option>
+         <option value="group"> Bitcoin</option>
+ </select>
+   <br><br>
+
+  <label for="date"> Date Joined</label>
+  <input type="date"id="date"><br><br>
+
+   <label for="activ">Active</label>
+    <input type="checkbox"id="activ" value="Active">
+   <label for="notactiv">Not Active</label>
+      <input type="checkbox" id="notactiv" value="Not Active"><br><br>
+   <input type="submit" value=" OK">
+</fieldset>
+ </form>
+
+
+
+
+
+</body>
+</html>

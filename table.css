@@ -1,0 +1,19 @@
+table,th,td{
+
+    border: 3px solid green;
+
+}
+td{
+    text-align: center;
+}
+table{
+     height: 150px;
+    width: 100%;
+}
+th{
+    background-color: #e0b00f;
+}
+.heading4{
+    background-color: #e0b00f;
+}
+

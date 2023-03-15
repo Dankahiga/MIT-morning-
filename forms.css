@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    background-color: #1fbdbd;
+
+}
+.right {
+    background-color: #930727;
+    padding: 50px;
+    margin-left: 50px;
+    width: 50%;
+    border-radius: 20px;
+    border: #1f1c1b;
+    color: white;
+
+
+
+}
+.left{
+    padding: 50px;
+    background-color: #e85e22;
+    width: 50%;
+    border-radius: 20px;
+
+
+}
